@@ -1,0 +1,17 @@
+{
+    "eslint.format.enable": true,
+    "eslint.packageManager": "yarn",
+    "eslint.probe": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "html",
+        "vue",
+        "markdown"
+    ],
+    "eslint.alwaysShowStatus": true,
+    "eslint.run": "onSave",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    }
+}
