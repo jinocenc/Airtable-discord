@@ -7,3 +7,6 @@ dotenv.config();
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 const API_TOKEN = process.env.DISCORD_TOKEN;
 addEventListeners(client).then(() => client.login(API_TOKEN));
+export {
+	client,
+};
